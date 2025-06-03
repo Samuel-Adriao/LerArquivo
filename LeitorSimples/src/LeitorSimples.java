@@ -18,6 +18,7 @@ public class LeitorSimples {
             System.out.println("A frase no arquivo.txt é: " + arquivoLinha);
         }
 
+        leitor.close();
         buffer.close();
         leitor.close();
     } catch(IOException e){
